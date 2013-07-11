@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WebDrum</title>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+   <script src="js/drumdiv.js"></script>
+   <script src="//use.edgefonts.net/comfortaa.js"></script> 
+  <link rel="stylesheet" href="style.css">
+  <link href="favicon.ico" rel="icon" type="image/x-icon">
+</head>
+<body>
+	<h1>WebDrum Alpha</h1>
+	<div ng-controller="DrumCtrl">
+		<input type="text" placeholder="Width" ng-model="width">
+		<input type="text" placeholder="Height" ng-model="height">
+		<div id="snare" ng-style="drumstyle()"></div>
+	</div>
+	
+	<video id="webcam" autoplay width="640" height="480"></video>
+	<canvas id="canvas-source" width="640" height="480"></canvas>
+	<canvas id="canvas-blended" width="640" height="480"></canvas>
+	<P>
+		<button id="startplay">Start Playing</button>
+		<button id="switchblend">Show Mocap</button>
+	</p>
+	<script src="js/buffer-loader.js"></script>
+	<script src="js/webdrum.js"></script>
+	</script>
+</body>
+</html>
