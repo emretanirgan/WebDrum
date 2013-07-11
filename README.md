@@ -6,6 +6,11 @@ Ideas:
 
 - Limit blend mode operations for the designated space, saves time.
 - Allow user to choose a space to play on (2)
+- Drag + resize space:
+* http://dev.iceburg.net/jquery/jqDnR/
+* http://www.twinhelix.com/javascript/dragresize/demo/
+*** http://jqueryui.com/draggable/ 
+*** http://viralpatel.net/blogs/jquery-resizable-draggable-resize-drag-tutorial-example/
 - Don't play the note before the stick moves away first (3)
 - Any way to calculate speed/intensity of the movement? Change sound (2)depending on that? --> Check the amount of white and figure out strength depending on that
 - Record played music + share it on FB and Twitter (1)
@@ -14,6 +19,8 @@ Ideas:
 - Record sounds from band room (1)
 - Aesthetics
 - Push on github
+- Try with drum sticks (3)
+
 
 Current delay from hit to sound: 45 ms
 
